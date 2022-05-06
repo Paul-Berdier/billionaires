@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9ad7ad-2451-40bf-8db5-599ff6db3e34" name="Changes" comment="init:box(chance,ground,jail)andapp">
-      <change afterPath="$PROJECT_DIR$/src/box/Box.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/box/Chance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/box/Ground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/box/Jail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="5f9ad7ad-2451-40bf-8db5-599ff6db3e34" name="Changes" comment="rename(main to app)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,11 +33,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/Utilisateur/Documents/Ecole/Annee_B2/Python/billionaires"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Utilisateur/Documents/Ecole/Annee_B2/Python/billionaires&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Utilisateur\Documents\Ecole\Annee_B2\Python\billionaires\src\box" />
@@ -68,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651820642131</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="rename(main to app)">
+      <created>1651831926411</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651831926411</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +84,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="install:main" />
-    <option name="LAST_COMMIT_MESSAGE" value="install:main" />
+    <MESSAGE value="rename(main to app)" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename(main to app)" />
   </component>
 </project>
