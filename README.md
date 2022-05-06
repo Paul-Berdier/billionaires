@@ -9,12 +9,14 @@ Créer un jeu de plateau inspiré du classique Monopoly. Le jeu pourra être jou
 
 ## Difficulté
 
-
 | Fonctionnalité | Difficulté |
 | --- | --- |
 | Multijoueur | 6 |
-| Algorithmie | 3 |
-| Base de données | 3 |
-| Interaction avec utilisateur | 2 |
+| Jeu contre ORDI | 6 |
+| Algorithmie | 4 |
+| Base de données | 4 |
+| Interaction avec utilisateur | 3 |
 | CRUD | 4 |
-| **Total** | 18 |
+| Diagramme | 1 |
+| **Total** | 28 |
+
