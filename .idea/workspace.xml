@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9ad7ad-2451-40bf-8db5-599ff6db3e34" name="Changes" comment="rename(main to app)" />
+    <list default="true" id="5f9ad7ad-2451-40bf-8db5-599ff6db3e34" name="Changes" comment="init:player">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651831926411</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rename(main to app)">
+      <created>1651832018600</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651832018600</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init:player">
+      <created>1651832863646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651832863646</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="install:main" />
     <MESSAGE value="rename(main to app)" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename(main to app)" />
+    <MESSAGE value="init:player" />
+    <option name="LAST_COMMIT_MESSAGE" value="init:player" />
   </component>
 </project>
