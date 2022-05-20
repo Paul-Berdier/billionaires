@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9ad7ad-2451-40bf-8db5-599ff6db3e34" name="Changes" comment="init:player">
+    <list default="true" id="5f9ad7ad-2451-40bf-8db5-599ff6db3e34" name="Changes" comment="init:player(def) + init:board">
+      <change afterPath="$PROJECT_DIR$/src/box/Box_cop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/box/Box_lotto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/box/Box_start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/Board.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/Board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/box/Box.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/box/Box.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/box/Chance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/box/Box_chance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/box/Ground.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/box/Box_ground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/box/Jail.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/box/Box_jail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651832863646</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="init:player(def) + init:board">
+      <created>1653031802067</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653031802067</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +119,7 @@
     <MESSAGE value="install:main" />
     <MESSAGE value="rename(main to app)" />
     <MESSAGE value="init:player" />
-    <option name="LAST_COMMIT_MESSAGE" value="init:player" />
+    <MESSAGE value="init:player(def) + init:board" />
+    <option name="LAST_COMMIT_MESSAGE" value="init:player(def) + init:board" />
   </component>
 </project>

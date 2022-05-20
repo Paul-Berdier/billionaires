@@ -1,2 +1,2 @@
 class Box:
-    passx
+    pass
