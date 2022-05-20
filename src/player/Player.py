@@ -11,7 +11,7 @@ class Player:
         self.account = Player.base_account
         self.name = name
         self.last_number_dice = 0
-        # self.ground_account = []
+        self.ground_list = []
 
     def roll(self):
         self.last_number_dice = random.randint(Player.min_dice, Player.max_dice)
@@ -25,8 +25,8 @@ class Player:
     def get_account(self):
         return self.account
 
-    # def add_ground(self):
-    #     pass
-    #
-    # def del_ground(self):
-    #     pass
+    def add_ground(self):
+        pass
+
+    def del_ground(self):
+        pass
