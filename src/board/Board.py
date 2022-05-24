@@ -7,10 +7,13 @@ class Board:
     account_loto = 0
 
     def __init__(self):
-        self.list_box = ["start", "rue 1", "rue 2","chance", "rue 3", "rue 4",
-                         "jail", "rue 5", "rue 6", "chance", "rue 7", "rue 8",
-                         "lotto", "rue 9", "rue 10","chance", "rue 11", "rue 12",
-                         "cop", "rue 13", "rue 14", "chance", "rue 15", "rue 16"]
+        self.list_box = [
+                        #"start", "rue 1", "rue 2","chance 1", "rue 3", "rue 4",
+                         #"jail", "rue 5", "rue 6", "chance 2", "rue 7", "rue 8",
+                         #"lotto", "rue 9", "rue 10","chance 3", "rue 11", "rue 12",
+                         #"cop", "rue 13", "rue 14", "chance 3", "rue 15", "rue 16"
+                        ]
+        self.list_player = []
         self.account_loto = Board.account_loto
 
     def get_account_lotto(self):
@@ -19,29 +22,61 @@ class Board:
     def set_account_lotto(self, price):
         self.account_loto =+ price
 
+    def set_list_box(self, box):
+        self.list_box.append(box)
+
+    def set_list_player(self, player):
+        self.list_player.append(player)
+
     def box_effect(self, player):
+        x = player.type_place
         match x:
             case 'start':
                 pass
-            case 'rue':
-                pass
+            case 'street':
+                i = 0
+                for box in self.list_box:
+                    if isinstance(box, Box_ground):
+                        if box.owner_name:
+                            #SI LE TERRAIN APPARTIENT DEJA A QQUN
+                            owner_name_box = box.owner_name
+                            if player.name == box.player:
+                                #AU JOUEUR QUI JOUE
+                                print("Vous êtes sur un de vos terrains\n")
+                            else :
+                                #A UN AUTRE JOUEUR
+                                for player_of_list in self.list_player:
+                                    if player_of_list.name == owner_name_box:
+                                        other_player = player_of_list
+                                print("Vous payez {} à {}\n".format(box.price_ground, box.owner_name))
+                                player.set_account(-(box.price_ground))
+                                other_player.set_account(box.priceground)
+
+                        else :
+                            #DEMANDE D'ACHAT
+                            dmd = string(input("Voulez vous acheter {} pour {} ? (O/N)\n").format(box.name,box.price))
+                            if dmd == ("O" | "o"):
+                                player.set_account(-(box.price))
+                            elif dmd == ("N" | "n"):
+                                pass
+
+
             case 'chance':
-                pass
+                #LE JOUEUR TIRE UNE CARTE CHANCE
+                #a finir
+                player.draw_carte()
+
             case 'lotto':
-                player.set_account()
+                #LE JOUEUR REMPORTE LE LOTO
+                player.set_account(self.account_loto)
+                self.account_loto = 0
+            case 'cop':
+                #LE JOUEUR VA EN PRISON
+                player.type_place = 'jail'
+                player.in_jail = True
+            case 'jail':
+                pass
 
-
-
-# def init_list_box(number):
-#     list_box = []
-#     for i in range(number - 1):
-#         if i == 3 | i == 9 | i == 15 | i == 21:
-#             list_box.append(chance = Box_chance())
-#         elif i == 0 | i == 6 | i == 12 | i == 18:
-#             if i == 0:
-#                 list_box.append(start = Box_start())
-#             if i == 0:
-#                list_box.append(Box_start())
-#
-#
-#     return list_box
+    def move_player(self, player):
+        #a finir
+        pass

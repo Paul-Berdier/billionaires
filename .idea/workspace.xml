@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9ad7ad-2451-40bf-8db5-599ff6db3e34" name="Changes" comment="new class box + continuer class board">
+    <list default="true" id="5f9ad7ad-2451-40bf-8db5-599ff6db3e34" name="Changes" comment="continuer class board">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/Board.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/Board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/box/Box.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/box/Box.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/box/Box_chance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/box/Box_chance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/box/Box_cop.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/box/Box_cop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/box/Box_ground.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/box/Box_ground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/box/Box_jail.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/box/Box_jail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/box/Box_lotto.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/box/Box_lotto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/box/Box_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/box/Box_start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653038897237</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="continuer class board">
+      <created>1653042409706</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653042409706</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +134,7 @@
     <MESSAGE value="init:player" />
     <MESSAGE value="init:player(def) + init:board" />
     <MESSAGE value="new class box + continuer class board" />
-    <option name="LAST_COMMIT_MESSAGE" value="new class box + continuer class board" />
+    <MESSAGE value="continuer class board" />
+    <option name="LAST_COMMIT_MESSAGE" value="continuer class board" />
   </component>
 </project>

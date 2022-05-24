@@ -7,8 +7,8 @@ class Chance(Box):
 
     list_carte = []
 
-    def __init__(self):
-        pass
+    def __init__(self, type="chance"):
+        Box.__init__(self, type)
 
     def setlistcarte(cls, carte):
         Chance.list_carte = Chance.list_carte.append(carte)

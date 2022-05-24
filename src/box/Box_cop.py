@@ -1,4 +1,5 @@
 from .Box import Box
 
 class Box_cop(Box):
-    pass
+    def __init__(self, type="cop"):
+        Box.__init__(self, type)
